@@ -1,0 +1,237 @@
+@keyframes slideBottom 
+{
+    from
+    {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateY(0%);
+        opacity: 1;
+    } 
+}
+
+@keyframes showDiv
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    } 
+}
+
+body
+{    
+    background: linear-gradient(to right, #000 30%, #160038);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Content
+{
+    margin: auto;
+    margin-top: 10%;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+
+#Logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    color: #dedede;
+    font-size: 60px;
+    border-radius: 10px;
+    border:solid 1px rgb(91, 0, 228);
+    background-color: rgba(0,0,0,0.5);
+    width: 300px;
+    padding: 20px;
+    -webkit-box-shadow: 20px 18px 32px -9px rgb(0, 0, 0);
+    -moz-box-shadow: 20px 18px 32px -9px rgb(0, 0, 0);
+    box-shadow: 20px 18px 32px -9px rgba(0, 0, 0, 1);
+    animation-name: slideBottom;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+}
+
+#Logging
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #dedede;
+    width: 300px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border:solid 1px rgb(91, 0, 228);
+    border-radius: 10px;
+    -webkit-box-shadow: 20px 18px 32px -9px rgb(0, 0, 0);
+    -moz-box-shadow: 20px 18px 32px -9px rgb(0, 0, 0);
+    box-shadow: 20px 18px 32px -9px rgba(0, 0, 0, 1);
+    animation-name: slideBottom;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+}
+
+#ForgotPassword
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 300px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    border:solid 1px rgb(91, 0, 228);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    -webkit-box-shadow: 20px 18px 32px -9px rgb(0, 0, 0);
+    -moz-box-shadow: 20px 18px 32px -9px rgb(0, 0, 0);
+    box-shadow: 20px 18px 32px -9px rgba(0, 0, 0, 1);
+}
+
+footer
+{
+    width: 10%;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    left: 45.2%;
+    opacity: 0.1;
+}
+
+/*Inputy*/
+
+.loggingMainPage
+{
+    width: 96%;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border:solid 1px rgb(91, 0, 228);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btnMainPageSI
+{
+    background-color: seagreen;
+    border-radius: 5px;
+    border: solid 1px rgb(25, 73, 46);
+    padding: 5px;
+    color: #fff;
+    width: 45%;
+    margin-right: 15px;
+    font-size: 15px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+#btnMainPageR
+{    
+    background-color: #000;
+    border-radius: 5px;
+    border: solid 1px rgb(91, 0, 228);
+    padding: 5px;
+    color: #fff;
+    width: 45%;
+    margin-left: 10px;
+    font-size: 15px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+#btnForgotPassword
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0);
+    color: #a9a9a9;
+    font-size: 15px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+#btnMainPageFP
+{
+    background-color: seagreen;
+    border-radius: 5px;
+    border: solid 1px rgb(25, 73, 46);
+    padding: 5px;
+    color: #fff;
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+#btnMainPageSI:hover
+{
+    cursor: pointer;
+    background-color:rgb(25, 73, 46);
+    transform: scale(110%);
+}
+
+#btnMainPageR:hover
+{
+    cursor: pointer;
+    background-color: #060606;
+    transform: scale(110%);
+}
+
+#btnForgotPassword:hover
+{
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+/*a*/
+
+#forgotPassword
+{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+#forgotPassword:hover
+{
+    opacity: 0.8;
+}
+
+#forgotPassword:visited
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+#forgotPassword:active
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Spany*/
+
+#textColorPuprle
+{   
+    color: rgb(67, 0, 167);
+}
+
+.errorSpan
+{
+    color: rgb(200, 0, 0);
+}
